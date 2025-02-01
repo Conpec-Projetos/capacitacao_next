@@ -8,10 +8,10 @@ export default function Login() {
         <Image
           priority
           src={logo}
-          placeholder="blur"
-          loading="eager"
           quality={100}
           alt="Lima's Pizza"
+          className="select-none"
+          draggable="false"
         />
       </div>
       <div className="h-screen w-[60%] flex items-center">
